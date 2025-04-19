@@ -110,3 +110,25 @@ ul{
   font-size: 1rem;
 
 }
+
+
+.remove:hover{
+  background-color: #ff0000;
+}
+
+@media (max-width: 600px) {
+  .container{
+    width: 90%;
+  }
+  h1{
+    font-size: 1.5rem;
+  }
+  .addTodoInput{
+    flex-direction: column;
+    align-items: stretch;
+  }
+  input{
+    margin-bottom: 10px;
+    width: 100%;
+  }
+}
